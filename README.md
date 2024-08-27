@@ -8,7 +8,11 @@ Proyecto elegido: Sistema de reservas para un restaurante.
 explorar el menú, ver reseñas, y hacer reservas en línea.
 
 • Características Clave:
-o Menú interactivo con imágenes y descripciones de platos.
-o Sistema de reservas en línea con selección de fecha y hora.
-o Sistema de registro para usuarios frecuentes.
-o Sección de reseñas y calificaciones de los clientes.
+
+- Menú interactivo con imágenes y descripciones de platos.
+
+- Sistema de reservas en línea con selección de fecha y hora.
+
+- Sistema de registro para usuarios frecuentes.
+
+- Sección de reseñas y calificaciones de los clientes.
