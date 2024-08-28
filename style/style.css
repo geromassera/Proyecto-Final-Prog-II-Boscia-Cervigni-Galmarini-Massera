@@ -87,4 +87,7 @@ button {
   font-weight: 700;
   line-height: 2.25rem;
   margin: auto;
+  cursor: pointer;
 }
+
+
