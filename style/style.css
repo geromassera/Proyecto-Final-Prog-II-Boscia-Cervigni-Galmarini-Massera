@@ -1,51 +1,90 @@
+/* Estilo General */
 * {
-    font-family: "andika";
+  font-family: "andika";
 }
 
+/* Estilo Body (Centrado al background) */
 body {
-    background: url(/asset/f7df6bce3f522d7ae7c47d14a48e9a98.webp) lightgray 50% / cover no-repeat;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+  background: url(/asset/f7df6bce3f522d7ae7c47d14a48e9a98.webp) lightgray 50% /
+    cover no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
-header {
-
-}
-
+/* Estilo Header */
+/* TODO: Que ocupe la totalidad de la parte superior de la pantalla */
 .layout {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-shrink: 0;
-    color: #E6DD3B;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    background: #6A704C; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #e6dd3b;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: #6a704c;
 }
 
+/* Estilo Titulo */
 .greenPlate {
-    width: 38.5rem;
-    height: 5.5625rem;
-    font-size: 3rem;
-    margin-right: auto;
+  width: 38.5rem;
+  height: 5.5625rem;
+  font-size: 3rem;
+  margin-right: auto;
+  color: #e6dd3b;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 3.5rem;
+  text-decoration: none;
+  margin-left: 2rem;
+  line-height: normal;
 }
+
+/* Estilo Menúes Desplegables */
+.menu,
+.reservas,
+.resenas {
+  padding: 1.2rem;
+  font-size: 2.2rem;
+  color: #e6dd3b;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 2.04rem;
+}
+
+/* Estilo Logo + Botón */
+.logo-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  flex-shrink: 0;
+  position: relative;
+  row-gap: 0.625rem;
+}
+
+/* Estilo Botón */
+/* TODO: Alinearlo bajo la imagen */
 button {
-    display: flex;
-    width: 15.4375rem;
-    height: 5.125rem;
-    padding: 0.5rem 1rem;
-    justify-content: center;
-    align-items: center;
-    gap: 0.625rem;
-    flex-shrink: 0;
-    border-radius: 2.1875rem;
-    background: linear-gradient(180deg, #1E6F5C 0%, #32A164 96.87%);
-    box-shadow: 0px -4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(249, 247, 243, 0.25);
-    color: #E6DD3B;
-    font-size: 2rem;
-    font-style: italic;
-    font-weight: 700;
-    line-height: 2.25rem;
+  display: flex;
+  width: 15.4375rem;
+  height: 5.125rem;
+  padding: 0.5rem 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  flex-shrink: 0;
+  border-radius: 2.1875rem;
+  background: linear-gradient(180deg, #1e6f5c 0%, #32a164 96.87%);
+  box-shadow: 0px -4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(249, 247, 243, 0.25);
+  color: #e6dd3b;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 2.25rem;
+  margin: auto;
 }
