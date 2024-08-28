@@ -1,0 +1,51 @@
+* {
+    font-family: "andika";
+}
+
+body {
+    background: url(/asset/f7df6bce3f522d7ae7c47d14a48e9a98.webp) lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+header {
+
+}
+
+.layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #E6DD3B;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: #6A704C; 
+}
+
+.greenPlate {
+    width: 38.5rem;
+    height: 5.5625rem;
+    font-size: 3rem;
+    margin-right: auto;
+}
+button {
+    display: flex;
+    width: 15.4375rem;
+    height: 5.125rem;
+    padding: 0.5rem 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    border-radius: 2.1875rem;
+    background: linear-gradient(180deg, #1E6F5C 0%, #32A164 96.87%);
+    box-shadow: 0px -4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(249, 247, 243, 0.25);
+    color: #E6DD3B;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 2.25rem;
+}
