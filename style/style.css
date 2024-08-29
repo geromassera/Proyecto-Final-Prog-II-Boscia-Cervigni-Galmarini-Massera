@@ -24,6 +24,7 @@ body {
   font-weight: 700;
   line-height: normal;
   background: #6a704c;
+  margin-bottom: 8rem;
 }
 
 /* Estilo Titulo */
@@ -52,6 +53,13 @@ body {
   font-weight: 700;
   line-height: normal;
   margin-top: 2.04rem;
+  transition: text-decoration 10s ease-in-out;
+}
+
+.menu:hover,
+.reservas:hover,
+.resenas:hover {
+  text-decoration: underline;
 }
 
 /* Estilo Logo + Botón */
@@ -63,11 +71,10 @@ body {
   gap: 0.625rem;
   flex-shrink: 0;
   position: relative;
-  row-gap: 0.625rem;
+  row-gap: 5rem;
 }
 
 /* Estilo Botón */
-/* TODO: Alinearlo bajo la imagen */
 button {
   display: flex;
   width: 15.4375rem;
@@ -89,5 +96,3 @@ button {
   margin: auto;
   cursor: pointer;
 }
-
-
