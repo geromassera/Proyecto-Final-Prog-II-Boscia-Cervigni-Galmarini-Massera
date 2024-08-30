@@ -10,6 +10,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  margin: 0;
 }
 
 /* Estilo Header */
@@ -125,4 +126,24 @@ button {
   line-height: 2.25rem;
   margin: auto;
   cursor: pointer;
+}
+
+/* Animación Botón */
+button:hover {
+  animation: pulse 4s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
