@@ -198,6 +198,7 @@ body {
   width: 32.875rem;
   height: 19.375rem;
   flex-shrink: 0;
+  margin-left: 1.2rem
 }
 
 img {
