@@ -4,11 +4,10 @@
 
 body {
   margin: 0;
-  background: url(../asset/blob-scene-haikei.png) lightgray 50% / cover
-    no-repeat;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+  background: url(../asset/background2.png);
+  background-size: contain;
+  background-repeat: repeat;
+  gap: none;
 }
 
 /* Estilo Header */
@@ -23,10 +22,6 @@ body {
   line-height: normal;
   background: #6a704c;
   margin-bottom: 8rem;
-  max-height: 21%;
-  width: 100vw;
-  height: 9.375rem;
-  flex-shrink: 0;
 }
 .greenPlate {
   width: 38.5rem;
