@@ -133,7 +133,7 @@ button {
 
 /* Animación Botón */
 button:hover {
-  animation: pulse 4s infinite;
+  animation: pulse 2.5s infinite;
 }
 
 @keyframes pulse {
