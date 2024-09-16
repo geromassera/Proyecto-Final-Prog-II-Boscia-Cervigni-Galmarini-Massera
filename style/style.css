@@ -21,29 +21,30 @@ body {
 .layout {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  align-items: center;
   flex-shrink: 0;
   color: #e6dd3b;
   font-style: normal;
-  font-weight: 700;
   line-height: normal;
   background: #6a704c;
   margin-bottom: 8rem;
+  height: 100px;
 }
 
 /* Estilo Titulo */
 .greenPlate {
-  width: 38.5rem;
-  height: 5.5625rem;
-  font-size: 3rem;
+  font-size: 2.2rem;
   margin-right: auto;
   color: #e6dd3b;
   font-style: italic;
-  font-weight: 700;
   line-height: 3.5rem;
   text-decoration: none;
-  margin-left: 2rem;
+  margin-left: 10px;
   line-height: normal;
+}
+
+.logoHeader {
+  width: 80px;
 }
 
 /* Estilo Menúes Desplegables */
@@ -51,7 +52,7 @@ body {
 .reservas,
 .resenas {
   padding: 1.2rem;
-  font-size: 2.2rem;
+  font-size: 2rem;
   color: #e6dd3b;
   text-decoration: none;
   font-weight: 700;
