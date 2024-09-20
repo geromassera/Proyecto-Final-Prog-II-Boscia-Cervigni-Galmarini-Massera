@@ -20,7 +20,7 @@ body {
   font-style: normal;
   line-height: normal;
   background: #6a704c;
-  margin-bottom: 8rem;
+  margin-bottom: 4rem;
   height: 100px;
 }
 .greenPlate {
@@ -92,7 +92,7 @@ body {
 .centrado {
   display: flex;
   justify-content: center;
-  margin-bottom: 16rem;
+  margin-bottom: 6rem;
 }
 .menuabt {
   border-radius: 1.875rem;
@@ -132,7 +132,8 @@ body {
   align-items: center;
   justify-content: center;
   row-gap: 1rem;
-  grid-gap: 22.6875rem;
+  grid-gap: 50px;
+  margin-left: 150px;
 }
 .menu-col-2 {
   grid-area: 1 / 2 / 2 / 3;
@@ -140,7 +141,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  grid-gap: 22.6875rem;
+  grid-gap: 50px;
+  margin-right: 150px;
 }
 
 /* Estilo Cards */
