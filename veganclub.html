@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Plate - Iniciar Sesión</title>
+    <link rel="stylesheet" href="veganclub.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Green Plate</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Reservas</a></li>
+                <li><a href="#">Reseñas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="auth-container">
+        <div class="form-box">
+            <h2>Iniciar Sesión</h2>
+            <form action="login.php" method="post">
+                <label for="username">Nombre de usuario:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit" class="btn">Iniciar Sesión</button>
+            </form>
+
+            <p>¿No tienes una cuenta? <a href="#" id="register-link">Regístrate aquí</a></p>
+        </div>
+
+        <div class="form-box" id="register-box" style="display: none;">
+            <h2>Registro</h2>
+            <form action="register.php" method="post">
+                <label for="reg-username">Nombre de usuario:</label>
+                <input type="text" id="reg-username" name="username" required>
+                
+                <label for="reg-email">Correo electrónico:</label>
+                <input type="email" id="reg-email" name="email" required>
+                
+                <label for="reg-password">Contraseña:</label>
+                <input type="password" id="reg-password" name="password" required>
+                
+                <button type="submit" class="btn">Registrarse</button>
+            </form>
+
+            <p>¿Ya tienes una cuenta? <a href="#" id="login-link">Inicia sesión aquí</a></p>
+        </div>
+    </section>
+
+    <script>
+        const registerLink = document.getElementById('register-link');
+        const loginLink = document.getElementById('login-link');
+        const loginBox = document.querySelector('.form-box');
+        const registerBox = document.getElementById('register-box');
+
+        registerLink.addEventListener('click', () => {
+            loginBox.style.display = 'none';
+            registerBox.style.display = 'block';
+        });
+
+        loginLink.addEventListener('click', () => {
+            registerBox.style.display = 'none';
+            loginBox.style.display = 'block';
+        });
+    </script>
+</body>
+</html>
