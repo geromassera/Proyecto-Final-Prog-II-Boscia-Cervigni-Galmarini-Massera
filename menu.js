@@ -22,15 +22,15 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function guardarResena(resena) {
-    let resenas = JSON.parse(localStorage.getItem('resenas')) || [];
-    resenas.push(resena);
-    localStorage.setItem('resenas', JSON.stringify(resenas));
+    let reseñas = JSON.parse(localStorage.getItem('reseñas')) || [];
+    reseñas.push(resena);
+    localStorage.setItem('reseñas', JSON.stringify(reseñas));
     agregarResenaDOM(resena);
 }
 
 function cargarResenas() {
-    const resenas = JSON.parse(localStorage.getItem('resenas')) || [];
-    resenas.forEach(resena => {
+    const reseñas = JSON.parse(localStorage.getItem('reseñas')) || [];
+    reseñas.forEach(resena => {
         agregarResenaDOM(resena);
     });
 }
@@ -68,9 +68,9 @@ function agregarResenaDOM(resena) {
 }
 
 function eliminarResena(resena, reseñaDOM) {
-    let resenas = JSON.parse(localStorage.getItem('resenas')) || [];
-    resenas = resenas.filter(r => r.nombre !== resena.nombre || r.usuario !== resena.usuario || r.comentario !== resena.comentario);
-    localStorage.setItem('resenas', JSON.stringify(resenas));
+    let reseñas = JSON.parse(localStorage.getItem('reseñas')) || [];
+    reseñas = reseñas.filter(r => r.nombre !== resena.nombre || r.usuario !== resena.usuario || r.comentario !== resena.comentario);
+    localStorage.setItem('reseñas', JSON.stringify(reseñas));
 
     reseñaDOM.remove();
 }
