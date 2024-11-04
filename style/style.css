@@ -9,11 +9,9 @@ body {
 
 /* Estilo Body (Centrado al background) */
 .index {
-  background: url(/asset/f7df6bce3f522d7ae7c47d14a48e9a98.webp) lightgray 50% /
-    cover no-repeat;
+  background: url(/asset/f7df6bce3f522d7ae7c47d14a48e9a98.webp);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
   margin: 0;
 }
 

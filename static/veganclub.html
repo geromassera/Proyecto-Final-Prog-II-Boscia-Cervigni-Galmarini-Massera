@@ -4,22 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Green Plate - Iniciar Sesión</title>
-    <link rel="stylesheet" href="veganclub.css">
+    <link rel="stylesheet" href="../style/veganclub.css">
+    <link rel="shortcut icon" href="../asset/green-plate-favicon-color.png" type="image/x-icon"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <h1>Green Plate</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Reservas</a></li>
-                <li><a href="#">Reseñas</a></li>
-            </ul>
-        </nav>
-    </header>
 
+    <div class="layout">
+            <img
+            class="logoHeader"
+            src="../asset/green-plate-favicon-color.png"
+            alt="Logo Green Plate"
+            />
+            <h2 class="greenPlate">
+            <a class="greenPlate" href="../index.html">Green Plate</a>
+            </h2>
+            <h2 class="menu"><a href="menu.html" class="menu">Menú</a></h2>
+            <h2 class="reservas">
+            <a href="reservas.html" class="reservas">Reservas</a>
+            </h2>
+            <h2 class="resenas">
+            <a href="resenas.html" class="resenas">Reseñas</a>
+            </h2>
+    </div>
+
+    <div class="inner">
     <section class="auth-container">
         <div class="form-box">
             <h2>Iniciar Sesión</h2>
@@ -71,5 +85,8 @@
             loginBox.style.display = 'block';
         });
     </script>
+
+    </div>
+    
 </body>
 </html>

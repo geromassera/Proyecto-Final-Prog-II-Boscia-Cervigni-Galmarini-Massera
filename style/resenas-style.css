@@ -200,7 +200,7 @@ a{
     text-overflow: ellipsis; 
     display: -webkit-box; 
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 12;
+    line-clamp: 12;
 }
 
 .caja-resenas:hover{
