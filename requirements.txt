@@ -1,0 +1,10 @@
+flask
+flask-migrate
+SQLAlchemy
+pydantic
+pydantic[email]
+flask_login
+flask_bcrypt
+flask_wtf
+wtforms
+email_validator
