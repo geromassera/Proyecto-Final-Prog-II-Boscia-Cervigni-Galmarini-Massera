@@ -23,14 +23,14 @@
             alt="Logo Green Plate"
             />
             <h2 class="greenPlate">
-            <a class="greenPlate" href="../index.html">Green Plate</a>
+            <a class="greenPlate" href="{{url_for('index')}}">Green Plate</a>
             </h2>
-            <h2 class="menu"><a href="menu.html" class="menu">Menú</a></h2>
+            <h2 class="menu"><a href="{{url_for('menu')}}" class="menu">Menú</a></h2>
             <h2 class="reservas">
-            <a href="reservas.html" class="reservas">Reservas</a>
+            <a href="{{url_for('reservas')}}" class="reservas">Reservas</a>
             </h2>
             <h2 class="resenas">
-            <a href="resenas.html" class="resenas">Reseñas</a>
+            <a href="{{url_for('resenas')}}" class="resenas">Reseñas</a>
             </h2>
         </div>
         <section id="reseñas">
@@ -212,7 +212,7 @@
             </div>
         </section>
     
-        <script src="../menu.js"></script>
+        <script src="../scripts/resenas.js"></script>
     </main>
 </body>
 </html>

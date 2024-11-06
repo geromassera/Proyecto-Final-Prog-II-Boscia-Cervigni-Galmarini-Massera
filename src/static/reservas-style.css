@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+
+  .reservation-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    position: relative;
+    top: 10px;
+  }
+
+  .reservation-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .error-message {
+    color: red;
+    font-size: 0.9em;
+    display: none;
+  }
+
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+
+  .reservations-list {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .reservation-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+
+  .reservation-item:last-child {
+    border-bottom: none;
+  }
+
+  /* Estilo general del body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Estilo del contenedor de la barra de navegación */
+.navbar {
+  display: flex;
+  position: relative;
+  align-items: right
+  ;
+  background-color: #6f7040; /* Verde oliva */
+  padding: 15px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Estilo del logotipo */
+.logo {
+  width: 50px; /* Tamaño del logotipo */
+  height: 50px;
+  border-radius: 50%;
+  background-color: #6A603F; /* Marrón oscuro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.logo img {
+  max-width: 60%; /* Ajuste para la imagen dentro del logo */
+}
+
+/* Estilo del texto de título */
+.navbar h1 {
+  font-size: 24px;
+  color: #F8E04D; /* Amarillo dorado */
+  margin-right: auto;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Estilo de los enlaces de navegación */
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: #F8E04D; /* Amarillo dorado */
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #FFFFFF; /* Cambia a blanco al pasar el ratón */
+}
