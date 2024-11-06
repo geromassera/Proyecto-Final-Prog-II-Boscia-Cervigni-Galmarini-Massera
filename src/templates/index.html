@@ -18,12 +18,12 @@
       type="image/x-icon"
     />
   </head>
-  <body class="index">
+  <body class="index" style="background-image: url({{ url_for('static', filename='asset/background.webp') }})">
     <main>
       <div class="layout">
         <img
           class="logoHeader"
-          src="../asset/green-plate-favicon-color.png"
+          src="../static/asset/green-plate-favicon-color.png"
           alt="Logo Green Plate"
         />
         <h2 class="greenPlate">
@@ -40,18 +40,23 @@
       <div class="logo-button">
         <img
           class="logo"
-          src="../asset/logo-white-removebgopb.png"
+          src="../static/asset/logo-white-removebgopb.png"
           alt="Logo Green Plate"
         />
         <div class="boton">
-          <a
+          <button
             class="veganClub"
-            href="{{url_for('veganclub')}}"
+            onclick="redirect()"
           >
             Vegan Club
-          </a>
+          </button>
         </div>
       </div>
     </main>
+    <script>
+      function redirect() {
+        window.location.href = "{{url_for('veganclub')}}";
+      }
+    </script>
   </body>
 </html>

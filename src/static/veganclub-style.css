@@ -13,6 +13,7 @@ body{
     align-items: center;
     height: 100vh;
     margin: 0;
+    padding-bottom: 4rem;
 }
 
 .logo h1 {

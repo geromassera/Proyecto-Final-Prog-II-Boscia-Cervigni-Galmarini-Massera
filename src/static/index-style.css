@@ -9,7 +9,6 @@ body {
 
 /* Estilo Body (Centrado al background) */
 .index {
-  background: url(/asset/f7df6bce3f522d7ae7c47d14a48e9a98.webp);
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
@@ -25,7 +24,7 @@ body {
   font-style: normal;
   line-height: normal;
   background: #6a704c;
-  margin-bottom: 8rem;
+  margin-bottom: 4rem;
   height: 100px;
 }
 
@@ -50,7 +49,7 @@ body {
 .reservas,
 .resenas {
   padding: 1.2rem;
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: #e6dd3b;
   text-decoration: none;
   font-weight: 700;
