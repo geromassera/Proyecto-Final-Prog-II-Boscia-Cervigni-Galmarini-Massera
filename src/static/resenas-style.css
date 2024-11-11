@@ -5,7 +5,7 @@
 
 body{
     margin: 0;
-    background: url(../asset/background2.png);
+    background-color: rgb(242, 242, 222);
 }
 
 /* Estilo Header */
@@ -141,6 +141,7 @@ a{
     margin: 25px;
     display: flex;
     flex-direction: column; 
+    background: #f2e8dc;
 }
 
 .imagen-perfil{
@@ -217,6 +218,7 @@ a{
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
     background-color: #ffffff;
     border-radius: 8px;
+    background: #ede1d1;
 }
 
 .formulario-resena h2 {
@@ -232,6 +234,10 @@ a{
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
+}
+
+.formulario-resena label {
+    color:rgb(0, 0, 0)
 }
 
 .formulario-resena button {

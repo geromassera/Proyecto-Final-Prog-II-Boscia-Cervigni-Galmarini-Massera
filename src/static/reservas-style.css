@@ -1,53 +1,53 @@
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-    background-color: #f4f4f4;
-    padding: 20px;
-  }
+*{
+  font-family: "andika";
+}
 
-  .reservation-form {
-    background-color: #fff;
+body{
+  margin: 0; 
+  background-color: rgb(242, 242, 222);
+}
+
+.reservation-form {
+  background: #f2e8dc;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 400px;
     margin-bottom: 20px;
-    position: relative;
+    margin: 0 auto;
     top: 10px;
-  }
+}
 
-  .reservation-form h2 {
+.reservation-form h2 {
     text-align: center;
     margin-bottom: 20px;
-  }
+}
 
-  .form-group {
+.form-group {
     margin-bottom: 15px;
-  }
+}
 
-  .form-group label {
+.form-group label {
     display: block;
     margin-bottom: 5px;
-  }
+}
 
-  .form-group input {
+.form-group input {
     width: 100%;
-    padding: 10px;
+    padding: 10px 5px 5px 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
-  }
+    margin-right: 100px;
+}
 
-  .error-message {
+.error-message {
     color: red;
     font-size: 0.9em;
     display: none;
-  }
+}
 
-  .submit-btn {
+.submit-btn {
     width: 100%;
     padding: 10px;
     background-color: #4CAF50;
@@ -56,94 +56,113 @@ body {
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
-  }
+}
 
-  .submit-btn:hover {
+.submit-btn:hover {
     background-color: #45a049;
-  }
+}
 
-  .reservations-list {
+.reservations-list {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 400px;
-  }
+    margin: 0 auto;
+    margin-top: 15px;
+    background: #f2e8dc;
+}
 
-  .reservation-item {
+.reservations-list h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.reservation-item {
     border-bottom: 1px solid #ddd;
     padding: 10px 0;
-  }
+}
 
-  .reservation-item:last-child {
+.reservation-item:last-child {
     border-bottom: none;
-  }
+}
 
-  /* Estilo general del body */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
+
+/* Estilo Header */
+.layout {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
-  height: 100vh;
+  flex-shrink: 0;
+  color: #e6dd3b;
+  font-style: normal;
+  line-height: normal;
+  background: #6a704c;
+  margin-bottom: 4rem;
+  height: 100px;
 }
-
-/* Estilo del contenedor de la barra de navegación */
-.navbar {
-  display: flex;
-  position: relative;
-  align-items: right
-  ;
-  background-color: #6f7040; /* Verde oliva */
-  padding: 15px 30px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  width: 100%;
-  max-width: 1200px;
-}
-
-/* Estilo del logotipo */
-.logo {
-  width: 50px; /* Tamaño del logotipo */
-  height: 50px;
-  border-radius: 50%;
-  background-color: #6A603F; /* Marrón oscuro */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 15px;
-}
-
-.logo img {
-  max-width: 60%; /* Ajuste para la imagen dentro del logo */
-}
-
-/* Estilo del texto de título */
-.navbar h1 {
-  font-size: 24px;
-  color: #F8E04D; /* Amarillo dorado */
+.greenPlate {
+  font-size: 2.2rem;
   margin-right: auto;
-  font-weight: bold;
+  color: #e6dd3b;
   font-style: italic;
-}
-
-/* Estilo de los enlaces de navegación */
-.nav-links {
-  display: flex;
-  gap: 30px;
-}
-
-.nav-links a {
-  color: #F8E04D; /* Amarillo dorado */
-  font-size: 20px;
+  line-height: 3.5rem;
   text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s;
+  margin-left: 10px;
+  line-height: normal;
 }
 
-.nav-links a:hover {
-  color: #FFFFFF; /* Cambia a blanco al pasar el ratón */
+.logoHeader {
+  width: 80px;
+}
+
+/* Estilo Menúes Desplegables */
+.menu,
+.reservas,
+.resenas {
+  padding: 1.2rem;
+  font-size: 2.2rem;
+  color: #e6dd3b;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 2.04rem;
+  transition: text-decoration 10s ease-in-out;
+  position: relative;
+}
+
+/* Estilo Hover */
+.menu:hover,
+.reservas:hover,
+.resenas:hover {
+  color: #e6dd3b;
+}
+
+/* Estilo Hover de linea */
+.menu::before,
+.reservas::before,
+.resenas::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #e6dd3b;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.menu:hover::before,
+.reservas:hover::before,
+.resenas:hover::before {
+  transform: scaleX(1);
+}
+
+.menu:active::before,
+.reservas:active::before,
+.resenas:active::before {
+  transform: scaleX(1);
 }

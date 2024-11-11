@@ -88,7 +88,7 @@ body{
   }
 
 .inner {
-    background-color: #56D3B8; 
+  background-color: rgb(242, 242, 222);
     color: #3A3A3A; 
     display: flex;
     justify-content: center;

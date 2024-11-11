@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background: url(../asset/background2.png);
+  background: url(./asset/background2.png);
   background-size: contain;
   background-repeat: repeat;
   gap: none;

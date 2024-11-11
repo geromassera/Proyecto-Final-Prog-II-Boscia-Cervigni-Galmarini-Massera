@@ -5,27 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Reserva de Mesa</title>
   <link rel="stylesheet" href="../static/reservas-style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  <link
+      rel="icon"
+      href="../static/asset/green-plate-favicon-color.png"
+      type="image/x-icon"
+    />
 </head>
 <body>
-    <div class="navbar">
-        <img
-        class="logo"
-        src="../asset/green-plate-favicon-color.png"
-        alt="Logo Green Plate"
-        />
-        <div class="nav-links">
-        <h2 class="greenPlate">
-          <a class="greenPlate" href="{{url_for('index')}}">Green Plate</a>
-        </h2>
-        <h2 class="menu"><a href="{{url_for('menu')}}" class="menu">Menú</a></h2>
-        <h2 class="reservas">
-          <a href="{{url_for('reservas')}}" class="reservas">Reservas</a>
-        </h2>
-        <h2 class="resenas">
-          <a href="{{url_for('resenas')}}" class="resenas">Reseñas</a>
-        </h2>
-        </div>
-</div>
+  <div class="layout">
+    <img
+      class="logoHeader"
+      src="../static/asset/green-plate-favicon-color.png" 
+      alt="Logo Green Plate"
+    />
+    <h2 class="greenPlate">
+      <a class="greenPlate" href="{{url_for('index')}}">Green Plate</a>
+    </h2>
+    <h2 class="menu"><a href="{{url_for('menu')}}" class="menu">Menú</a></h2>
+    <h2 class="reservas">
+      <a href="{{url_for('reservas')}}" class="reservas">Reservas</a>
+    </h2>
+    <h2 class="resenas">
+      <a href="{{url_for('resenas')}}" class="resenas">Reseñas</a>
+    </h2>
+  </div>
 
 <div class="reservation-form">
   <h2>Reserva tu Mesa</h2>
@@ -58,6 +68,6 @@
   <h2>Reservas Realizadas</h2>
 </div>
 
-<script src="../scripts/reservas.js"></script>
+<script src="../static/scripts/reservas.js"></script>
 </body>
 </html>
